@@ -171,7 +171,7 @@ int main(int argc, char *argv[]) {
 		return -1;
 	}
 
-	ret = init_shadertoy(gbm, egl, shadertoy);
+	ret = init_videoplayer(gbm, egl, shadertoy);
 	if (ret < 0) {
 		return -1;
 	}

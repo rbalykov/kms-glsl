@@ -99,7 +99,7 @@ static char *load_shader(const char *file) {
 
 static void draw_shadertoy(uint64_t start_time, unsigned frame) {
 	glUniform1f(iTime, (get_time_ns() - start_time) / (double) NSEC_PER_SEC);
-	// Replace the above to input ellapsed time relative to 60 FPS
+	// Replace the above to input elapsed time relative to 60 FPS
 	// glUniform1f(iTime, (float) frame / 60.0f);
 	glUniform1ui(iFrame, frame);
 

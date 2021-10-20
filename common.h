@@ -166,6 +166,7 @@ int create_program(const char *vs_src, const char *fs_src);
 int link_program(unsigned program);
 
 int init_shadertoy(const struct gbm *gbm, struct egl *egl, const char *shadertoy);
+int init_videoplayer(const struct gbm *gbm, struct egl *egl, const char *shadertoy);
 
 void init_perfcntrs(const struct egl *egl, const char *perfcntrs);
 void start_perfcntrs(void);
