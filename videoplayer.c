@@ -165,7 +165,7 @@ int init_videoplayer(const struct gbm *gbm, struct egl *egl, const char *file)
 		return -1;
 	}
 
-	texture = load_test("extras/test.uyvy");
+	texture = load_test("extras/625x799.uyvy");
 //	texture = load_test("extras/2560x1440.uyvy");
 //	texture = load_test("extras/789x444.uyvy");
 	if (!texture)
